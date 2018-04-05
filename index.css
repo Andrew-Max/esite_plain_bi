@@ -1,0 +1,42 @@
+.header {
+  font-size: 55px;
+  color: blue;
+
+}
+
+.even {
+  color: purple;
+}
+
+.odd {
+  color: green;
+}
+
+.header-container {
+  background: purple;
+  height: 100px;
+
+}
+.body-container {
+  background: pink;
+  width: 80%;
+  margin: 100px 50px;
+  padding: 30px 50px;
+}
+
+/*margin: top&bottom right&left*/
+.picture {
+   width: 80%;
+   height: 100px;
+
+
+}
+
+.chart > div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
