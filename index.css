@@ -1,3 +1,44 @@
+body {
+  margin: 0;
+}
+.main-container {
+  display: flex;
+  position: relative;
+}
+.content-container {
+  background: white;
+  border: 2px solid black;
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+}
+.section {
+  border: 1px solid black;
+  margin: 5px 10px;
+  float: left;
+  height: 340px;
+}
+.map-container {
+  width: 50%;
+}
+.pie-container {
+  width: 35%
+}
+.check-selector-container {
+  width: 10%;
+}
+.drive-time {
+  width: 32%;
+}
+.word-cloud {
+  width: 32%;
+}
+.median-drive-time {
+  width: 31%;
+}
+
 .chart > div {
   font: 10px sans-serif;
   background-color: steelblue;
@@ -5,4 +46,22 @@
   padding: 3px;
   margin: 1px;
   color: white;
+}
+#map {
+  height: 340px;
+  width: 100%;
+}
+
+.check-selector-container {
+  overflow-y: auto;
+}
+
+.check-selector-container > ul{
+  list-style: none;
+}
+
+.check-selector-container > ul{
+  padding: 0 0 0 5px;
+  margin: 0;
+  list-style: none;
 }

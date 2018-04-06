@@ -1,21 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.5.2/c3.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="index.css">
   <title>Solar Power</title>
 </head>
 <body>
 
+<div class="main-container">
+  <div class="content-container">
+    <div class="section map-container">
+      <div id="map"></div>
+    </div>
 
+    <div class="section pie-container">
+    <div id="pie-chart-1"></div>
+    </div>
 
+    <div class="section check-selector-container">
+      <ul>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+        <li><input type="checkbox" name="something">Some option</li>
+      </ul>
+    </div>
 
-<h2>Bar Chart</h2>
-<div class="chart"></div>
+    <div class="section bar-graph drive-time">
+      <div id='bar-chart-1'></div>
+    </div>
 
+    <div class="section word-cloud">
+      <div id='cloud-1'></div>
+    </div>
 
+    <div class="section bar-graph median-drive-time">
+      <h2>Bar Chart</h2>
+      <div class="chart"></div>
+    </div>
 
+  </div>
+</div>
 
 </body>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 <script src="https://d3js.org/d3.v5.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.5.2/c3.min.js"></script>
 <script src='./index.js'></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7_flC1w9xwG4XgE5yDcBcv2-3-ZS96Bk&callback=initMap" async defer></script>
+
 </html>
